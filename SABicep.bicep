@@ -1,5 +1,5 @@
-param location string = 'eastus'
-param name string = 'satestthsa01'
+param location string = 'westeurope'
+param name string = 'satestth01'
 
 var storageSku = 'Standard_LRS'
 
