@@ -14,3 +14,15 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
     publishLocation: 'Container'
+    
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Playground-ServiceConnection'
+    subscriptionId: 'e9a8216f-dc97-4f62-9218-4abb141179b7'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'rg-test-th'
+    location: 'West Europe'
+    templateLocation: 'Linked artifact'
+    csmFile: 'SA.json'
+    deploymentMode: 'Incremental'
