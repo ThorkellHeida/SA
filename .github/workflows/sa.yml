@@ -1,6 +1,6 @@
 on: [push]
 
-name: AzureARMDeploy
+name: SA
 
 jobs:
 
