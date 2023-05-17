@@ -9,5 +9,5 @@ jobs:
       - name: Log in with Azure
         uses: azure/actions/login@v1
         with:
-          creds: '{"clientId":"${{ secrets.CLIENT_ID }}","clientSecret":"${{ secrets.CLIENT_SECRET }}","subscriptionId":"${{ secrets.SUBSCRIPTION_ID }}","tenantId":"${{ secrets.TENANT_ID }}"}'
+          creds: '{"clientId":"${{ 734090d7-f912-4b69-ae3f-5b5c4e3c65b4 }}","clientSecret":"${{ Na18Q~o~IuJYRUxgOK.QvyatGZjD_sgqfT-jibs6 }}","subscriptionId":"${{ e9a8216f-dc97-4f62-9218-4abb141179b7 }}","tenantId":"${{ 73b0dcbd-0b22-4898-9288-d4508281d7b0 }}"}'
           allow-no-subscriptions: true
